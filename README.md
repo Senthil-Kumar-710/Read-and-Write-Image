@@ -72,23 +72,23 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-![output](luffy1.jpg)
+![output](luffy1.JPG)
 
 ### ii)Write the image
 
-![output](luffy2.jpg)
+![output](luffy2.JPG)
 
 ### iii)Shape of the Image
 
-![output](luffy3.jpg)
+![output](luffy3.JPG)
 
 ### iv)Access rows and columns
 
-![output](luffy4.jpg)
+![output](luffy4.JPG)
 
 ### v)Cut and paste portion of image
 
-![output](luffy5.jpg)
+![output](luffy5.JPG)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
