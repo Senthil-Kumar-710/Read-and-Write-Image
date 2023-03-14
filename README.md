@@ -35,7 +35,7 @@ cv2.waitKey(0)
 ii) #To write the image
 ```
 colorImage = cv2.imread('luffy.jpeg',1)
-cv2.imwrite('written.jpg',colorImage)
+cv2.imwrite('written.jpeg',colorImage)
 writtenImage = cv2.imread('written.jpeg',1)
 cv2_imshow(writtenImage)
 cv2.waitKey(0)
