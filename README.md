@@ -27,23 +27,23 @@ i) #To Read,display the image
 ```
 import cv2
 from google.colab.patches import cv2_imshow
-a = cv2.imread('luffy.jpeg',1)
+a = cv2.imread('luffy1.jpg',1)
 cv2_imshow(a)
 cv2.waitKey(0) 
 ```
 
 ii) #To write the image
 ```
-colorImage = cv2.imread('luffy.jpeg',1)
+colorImage = cv2.imread('luffy2.jpg',1)
 cv2.imwrite('written.jpeg',colorImage)
-writtenImage = cv2.imread('written.jpeg',1)
+writtenImage = cv2.imread('written.jpg',1)
 cv2_imshow(writtenImage)
 cv2.waitKey(0)
 ```
 
 iii) #Find the shape of the Image
 ```
-colorImage = cv2.imread('luffy.jpeg',1)
+colorImage = cv2.imread('luffy3.jpg',1)
 print(colorImage.shape)
 ```
 
@@ -51,7 +51,7 @@ iv) #To access rows and columns
 
 ```
 import random
-colorImage = cv2.imread('luffy.jpeg',1)
+colorImage = cv2.imread('luffy4.jpg',1)
 for i in range(100):
     for j in range(colorImage.shape[1]):
         colorImage[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
@@ -61,7 +61,7 @@ cv2.waitKey(0)
 
 v) #To cut and paste portion of image
 ```
-color_img = cv2.imread('luffy.jpeg',1)
+color_img = cv2.imread('luffy5.jpg',1)
 tag = color_img[200:400,300:500]
 color_img[200:400,100:300] = tag
 cv2_imshow(color_img)
